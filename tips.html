@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup Tips - Winx Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/assignment5.css">
+    <link rel="stylesheet" href="css/assignment6.css">
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+</head>
+<body class="assignment-page">
+<div id="scroll-progress" role="progressbar" aria-label="Page scroll progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+<div id="winx-toast" role="status" aria-live="polite" hidden></div>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg winx-navbar px-3 px-lg-5 py-3" aria-label="Main navigation">
+            <a href="index.html" class="navbar-brand logo">WINX STUDIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto gap-lg-4">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="makeup.html">Makeup</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="tips.html" aria-current="page">Tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <aside class="sidebar py-4 px-3">
+        <h2 class="mb-3">Quick Tips</h2>
+        <ul>
+            <li>Prepare your skin</li><li>Blend carefully</li><li>Use clean brushes</li><li>Remove makeup before sleeping</li>
+        </ul>
+    </aside>
+    <main class="main-content container-fluid px-0">
+        <section class="page-title py-4 py-md-5 px-3 mb-4 mb-md-5">
+            <h1>Makeup Tips</h1>
+            <p>Easy beauty tips for beginners.</p>
+        </section>
+        <section class="content p-4 p-md-5 mx-auto mb-5">
+            <h2>Everyday Makeup Tips</h2>
+            <ol>
+                <li>Clean and moisturize your skin.</li>
+                <li>Apply foundation in thin layers.</li>
+                <li>Blend your blush carefully.</li>
+                <li>Apply mascara from roots to tips.</li>
+                <li>Finish with lipstick or lip gloss.</li>
+            </ol>
+        </section>
+        <section class="gallery-section py-4 py-md-5 px-3 px-md-5">
+            <h2>Makeup Inspiration Gallery</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img class="a6-lazy" data-src="https://images.unsplash.com/photo-1571875257727-256c39da42af?q=80&amp;w=1480&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjRkNmQ4Ii8+PC9zdmc+" alt="Natural makeup">
+                    <div class="caption">Natural Makeup</div>
+                </div>
+                <div class="gallery-item">
+                    <img class="a6-lazy" data-src="https://plus.unsplash.com/premium_photo-1684407616442-8d5a1b7c978e?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjRkNmQ4Ii8+PC9zdmc+" alt="Beauty products">
+                    <div class="caption">Beauty Products</div>
+                </div>
+                <div class="gallery-item">
+                    <img class="a6-lazy" data-src="https://images.unsplash.com/photo-1620464003286-a5b0d79f32c2?q=80&amp;w=1036&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjRkNmQ4Ii8+PC9zdmc+" alt="Makeup brushes">
+                    <div class="caption">Makeup Brushes</div>
+                </div>
+                <div class="gallery-item">
+                    <img class="a6-lazy" data-src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&amp;fit=crop&amp;w=700&amp;q=80" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjRkNmQ4Ii8+PC9zdmc+" alt="Makeup look">
+                    <div class="caption">Everyday Look</div>
+                </div>
+                <div class="gallery-item">
+                    <img class="a6-lazy" data-src="https://images.unsplash.com/vector-1765956991222-1dde0fc1d350?q=80&amp;w=1480&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjRkNmQ4Ii8+PC9zdmc+" alt="Lip makeup">
+                    <div class="caption">Lip Makeup</div>
+                </div>
+                <div class="gallery-item">
+                    <img class="a6-lazy" data-src="https://plus.unsplash.com/premium_vector-1721727137982-bf8320001996?q=80&amp;w=1480&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjRkNmQ4Ii8+PC9zdmc+" alt="Cosmetics">
+                    <div class="caption">Cosmetics</div>
+                </div>
+                <div class="gallery-item">
+                    <img class="a6-lazy" data-src="https://plus.unsplash.com/premium_vector-1722001679296-5309263697d0?q=80&amp;w=1480&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjRkNmQ4Ii8+PC9zdmc+" alt="Skin care and makeup">
+                    <div class="caption">Skin Preparation</div>
+                </div>
+                <div class="gallery-item">
+                    <img class="a6-lazy" data-src="https://plus.unsplash.com/premium_vector-1721946880754-e1c5cf0a5f74?q=80&amp;w=1480&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjRkNmQ4Ii8+PC9zdmc+" alt="Lipstick">
+                    <div class="caption">Lipstick</div>
+                </div>
+                <div class="gallery-item">
+                    <img class="a6-lazy" data-src="https://plus.unsplash.com/premium_vector-1721771999150-4bc90c6ca0ca?q=80&amp;w=1480&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjRkNmQ4Ii8+PC9zdmc+" alt="Makeup inspiration">
+                    <div class="caption">Makeup Inspiration</div>
+                </div>
+            </div>
+        </section>
+        <section class="content p-4 p-md-5 mx-auto mb-5">
+            <h2>Things to Avoid</h2>
+            <ul>
+                <li>Do not use too much foundation.</li>
+                <li>Do not share eye makeup products.</li>
+                <li>Do not forget to blend.</li>
+                <li>Do not sleep with makeup on.</li>
+            </ul>
+            <div class="btn-group" role="group" aria-label="Related pages">
+                <a href="makeup.html" class="btn btn-danger">Makeup looks</a>
+                <a href="products.html" class="btn btn-outline-danger">Products</a>
+                <a href="contact.html" class="btn btn-secondary">Ask us</a>
+            </div>
+            <div class="highlight p-4 mt-4">
+                <h3>Remember</h3>
+                <p>Good makeup is not about using many products. Good blending and simple techniques are more important.</p>
+            </div>
+        </section>
+        <section class="content p-4 p-md-5 mx-auto mb-5">
+            <h2>Frequently Asked Questions</h2>
+            <div class="a6-search"><label for="faq-search">Search beauty questions and answers</label><input id="faq-search" type="search" placeholder="Try makeup or brushes"><p id="faq-search-count" role="status"></p></div>
+<div class="faq-item">
+                <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-0">How do I prepare my skin?<span aria-hidden="true"> +</span></button></h3>
+                <div id="faq-0" class="faq-answer" inert><div><p>Clean your face and apply a moisturizer before makeup.</p></div></div>
+            </div>
+            <div class="faq-item">
+                <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-1">How often should I clean my brushes?<span aria-hidden="true"> +</span></button></h3>
+                <div id="faq-1" class="faq-answer" inert><div><p>Clean brushes regularly and allow them to dry completely before use.</p></div></div>
+            </div>
+            <div class="faq-item">
+                <h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-2">How can I book a consultation?<span aria-hidden="true"> +</span></button></h3>
+                <div id="faq-2" class="faq-answer" inert><div><p>Visit our Contact page and fill in the consultation form.</p></div></div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer p-4">
+        <p>Winx Studio</p>
+        <p>Team members: Assylzhan, Uldanay</p>
+        <div class="a6-copy-row"><span id="studio-email">info@winxstudio.com</span><button type="button" class="winx-action" id="copy-email" aria-describedby="copy-tooltip">Copy email</button><span id="copy-tooltip" role="tooltip" hidden>Copied to clipboard!</span><span id="copy-status" role="status"></span></div>
+<div class="interactive-tools">
+            <button type="button" class="winx-action" id="change-background">Change background</button>
+            <button type="button" class="winx-action" id="open-subscribe">Subscribe to beauty tips</button>
+            <p>Local date and time: <time id="current-datetime"></time></p>
+        </div>
+    </footer>
+    <dialog id="subscribe-dialog" aria-labelledby="subscribe-title">
+        <button type="button" id="close-subscribe" class="popup-close" aria-label="Close subscription form">×</button>
+        <h2 id="subscribe-title">Beauty tips newsletter</h2>
+        <form id="subscribe-form" novalidate>
+            <label for="subscribe-email">Email</label>
+            <input id="subscribe-email" type="email" autocomplete="email" required>
+            <p id="subscribe-error" class="field-error" aria-live="polite"></p>
+            <button type="submit" class="winx-action">Subscribe</button>
+            <p id="subscribe-status" role="status"></p>
+        </form>
+    </dialog>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/assignment5.js" defer></script>
+    <script src="js/assignment6.js" defer></script>
+</body>
+</html>

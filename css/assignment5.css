@@ -1,0 +1,42 @@
+/* Assignment 5 additions ONLY.
+   Original css/style.css is not changed or overridden.
+   All selectors below belong to newly added controls or event-only states. */
+
+.as5-rating { margin-top: 16px; }
+.as5-rating-message { margin-bottom: 6px; }
+.as5-rating-stars { display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; }
+.as5-rating-star {
+    border: 0;
+    border-radius: 8px;
+    padding: 4px;
+    min-width: 40px;
+    min-height: 44px;
+    background: transparent;
+    color: #681b32;
+    font-family: inherit;
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+    transition: transform .15s ease;
+}
+.as5-rating-star.as5-selected { color: #420101; }
+.as5-rating-star:hover { transform: translateY(-2px); }
+.as5-rating-star:focus-visible { outline: 2px solid #681b32; outline-offset: 2px; }
+.as5-form-tools { margin-top: 14px; }
+.as5-form-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.as5-sound-status:empty { display: none; }
+.as5-sound-status { flex-basis: 100%; }
+.as5-hidden { display: none !important; }
+.as5-pop { animation: as5-pop .24s ease-out; }
+@keyframes as5-pop {
+    0% { transform: translateY(3px); opacity: .65; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .as5-pop { animation: none; }
+    .as5-rating-star { transition: none; }
+    .as5-rating-star:hover { transform: none; }
+}
+
+/* Same colour as the original inline style on Other Products. */
+.as5-products-title { color: #641F2B; }

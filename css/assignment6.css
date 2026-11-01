@@ -1,0 +1,27 @@
+/* Assignment 6 additions, preserving the Winx Studio palette. */
+#scroll-progress { position: fixed; top: 0; left: 0; height: 6px; width: 0; z-index: 2000; background: linear-gradient(90deg,#681b32,#e76899,#e6b850); box-shadow: 0 1px 5px #681b3266; }
+#winx-toast { position: fixed; bottom: 24px; right: 20px; z-index: 2001; max-width: min(360px,90vw); padding: 16px 22px; border-radius: 12px; color: white; background: #681b32; box-shadow: 0 6px 24px #0003; }
+.a6-search { position: relative; max-width: 640px; margin: 24px auto; text-align: left; }
+.a6-search label { display: block; font-weight: bold; margin-bottom: 8px; color: #420101; }
+.a6-search input { box-sizing: border-box; width: 100%; padding: 12px 16px; font: inherit; background: #fff8fa; color: #420101; border: 1px solid #9b5667; border-radius: 10px; }
+#product-suggestions { position: absolute; z-index: 30; top: 77px; left: 0; right: 0; list-style: none; padding: 6px; margin: 0; background: #fff8fa; border: 1px solid #9b5667; border-radius: 10px; box-shadow: 0 5px 16px #0002; }
+#product-suggestions li { padding: 10px 14px; cursor: pointer; color: #420101; border-radius: 6px; }
+#product-suggestions li:hover, #product-suggestions [aria-selected="true"] { background: #f4d6d8; }
+mark { background: #ffe08a; color: #420101; border-radius: 3px; padding: 0 2px; }
+.a6-stats { padding: 28px 18px; margin: 24px auto; max-width: 1000px; text-align: center; color: #420101; }
+.a6-stats-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; }
+.a6-stats-grid p { background: #fff2f3; border-radius: 16px; padding: 24px 12px; }
+.a6-counter { display: block; font-size: 2.5rem; color: #681b32; font-variant-numeric: tabular-nums; }
+.a6-stats-grid span { display: block; }
+.a6-copy-row { display: flex; justify-content: center; align-items: center; gap: 12px; flex-wrap: wrap; margin: 16px; }
+#copy-tooltip { padding: 6px 10px; background: #fff2f3; color: #420101; border-radius: 6px; }
+#copy-status { flex-basis: 100%; }
+.a6-spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid currentColor; border-right-color: transparent; border-radius: 50%; vertical-align: middle; margin-right: 8px; animation: a6-spin .7s linear infinite; }
+@keyframes a6-spin { to { transform: rotate(360deg); } }
+button:disabled { cursor: wait; opacity: .7; }
+.a6-clipboard-helper { position: fixed; left: -9999px; top: 0; }
+img[data-src] { background: #f4d6d8; }
+.a6-image-error { border: 1px dashed #681b32; }
+[hidden] { display: none !important; }
+@media(max-width: 520px) { .a6-stats-grid { grid-template-columns: 1fr; } #winx-toast { bottom: 12px; right: 12px; } }
+@media(prefers-reduced-motion: reduce) { .a6-spinner { animation: none; } }

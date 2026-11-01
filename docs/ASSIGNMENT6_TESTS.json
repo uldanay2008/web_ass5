@@ -1,0 +1,321 @@
+{
+  "environment": "jsdom with real jQuery 4.0.0; clipboard and element layout mocked. Browser rendering and external resource availability are not covered.",
+  "passed": 63,
+  "checks": [
+    {
+      "page": "contact.html",
+      "check": "jQuery 4 setup",
+      "passed": true
+    },
+    {
+      "page": "contact.html",
+      "check": "no startup errors",
+      "passed": true
+    },
+    {
+      "page": "contact.html",
+      "check": "lazy images use real source only near viewport",
+      "passed": true
+    },
+    {
+      "page": "contact.html",
+      "check": "scroll progress computes 50 percent",
+      "passed": true
+    },
+    {
+      "page": "contact.html",
+      "check": "progress has accessible value",
+      "passed": true
+    },
+    {
+      "page": "contact.html",
+      "check": "clipboard and tooltip",
+      "passed": true
+    },
+    {
+      "page": "contact.html",
+      "check": "invalid form does not spin",
+      "passed": true
+    },
+    {
+      "page": "contact.html",
+      "check": "valid form spinner and disabled submit",
+      "passed": true
+    },
+    {
+      "page": "contact.html",
+      "check": "duplicate submit blocked",
+      "passed": true
+    },
+    {
+      "page": "contact.html",
+      "check": "spinner restores and reports demo",
+      "passed": true
+    },
+    {
+      "page": "contact.html",
+      "check": "original wizard preserved",
+      "passed": true
+    },
+    {
+      "page": "contact.html",
+      "check": "early wizard submit does not load",
+      "passed": true
+    },
+    {
+      "page": "contact.html",
+      "check": "reset clears spinner state",
+      "passed": true
+    },
+    {
+      "page": "contact.html",
+      "check": "no interaction errors",
+      "passed": true
+    },
+    {
+      "page": "index.html",
+      "check": "jQuery 4 setup",
+      "passed": true
+    },
+    {
+      "page": "index.html",
+      "check": "no startup errors",
+      "passed": true
+    },
+    {
+      "page": "index.html",
+      "check": "lazy images use real source only near viewport",
+      "passed": true
+    },
+    {
+      "page": "index.html",
+      "check": "scroll progress computes 50 percent",
+      "passed": true
+    },
+    {
+      "page": "index.html",
+      "check": "progress has accessible value",
+      "passed": true
+    },
+    {
+      "page": "index.html",
+      "check": "clipboard and tooltip",
+      "passed": true
+    },
+    {
+      "page": "index.html",
+      "check": "original rating preserved",
+      "passed": true
+    },
+    {
+      "page": "index.html",
+      "check": "number counters finish",
+      "passed": true
+    },
+    {
+      "page": "index.html",
+      "check": "no interaction errors",
+      "passed": true
+    },
+    {
+      "page": "makeup.html",
+      "check": "jQuery 4 setup",
+      "passed": true
+    },
+    {
+      "page": "makeup.html",
+      "check": "no startup errors",
+      "passed": true
+    },
+    {
+      "page": "makeup.html",
+      "check": "lazy images use real source only near viewport",
+      "passed": true
+    },
+    {
+      "page": "makeup.html",
+      "check": "scroll progress computes 50 percent",
+      "passed": true
+    },
+    {
+      "page": "makeup.html",
+      "check": "progress has accessible value",
+      "passed": true
+    },
+    {
+      "page": "makeup.html",
+      "check": "clipboard and tooltip",
+      "passed": true
+    },
+    {
+      "page": "makeup.html",
+      "check": "no interaction errors",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "jQuery 4 setup",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "no startup errors",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "lazy images use real source only near viewport",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "scroll progress computes 50 percent",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "progress has accessible value",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "clipboard and tooltip",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "case-insensitive live search",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "autocomplete",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "keyboard suggestion selection",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "category and search intersection",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "category updates search",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "search plus favorites",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "remove favorite refreshes results",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "search remains plain text",
+      "passed": true
+    },
+    {
+      "page": "products.html",
+      "check": "no interaction errors",
+      "passed": true
+    },
+    {
+      "page": "team.html",
+      "check": "jQuery 4 setup",
+      "passed": true
+    },
+    {
+      "page": "team.html",
+      "check": "no startup errors",
+      "passed": true
+    },
+    {
+      "page": "team.html",
+      "check": "lazy images use real source only near viewport",
+      "passed": true
+    },
+    {
+      "page": "team.html",
+      "check": "scroll progress computes 50 percent",
+      "passed": true
+    },
+    {
+      "page": "team.html",
+      "check": "progress has accessible value",
+      "passed": true
+    },
+    {
+      "page": "team.html",
+      "check": "clipboard and tooltip",
+      "passed": true
+    },
+    {
+      "page": "team.html",
+      "check": "no interaction errors",
+      "passed": true
+    },
+    {
+      "page": "tips.html",
+      "check": "jQuery 4 setup",
+      "passed": true
+    },
+    {
+      "page": "tips.html",
+      "check": "no startup errors",
+      "passed": true
+    },
+    {
+      "page": "tips.html",
+      "check": "lazy images use real source only near viewport",
+      "passed": true
+    },
+    {
+      "page": "tips.html",
+      "check": "scroll progress computes 50 percent",
+      "passed": true
+    },
+    {
+      "page": "tips.html",
+      "check": "progress has accessible value",
+      "passed": true
+    },
+    {
+      "page": "tips.html",
+      "check": "clipboard and tooltip",
+      "passed": true
+    },
+    {
+      "page": "tips.html",
+      "check": "all FAQ matches highlighted",
+      "passed": true
+    },
+    {
+      "page": "tips.html",
+      "check": "literal metacharacter search",
+      "passed": true
+    },
+    {
+      "page": "tips.html",
+      "check": "clear restores FAQ",
+      "passed": true
+    },
+    {
+      "page": "tips.html",
+      "check": "original FAQ handler preserved",
+      "passed": true
+    },
+    {
+      "page": "tips.html",
+      "check": "no interaction errors",
+      "passed": true
+    }
+  ]
+}
